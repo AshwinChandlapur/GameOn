@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GameOn!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="style.css" type="text/css" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="linkstyles.css" />
+  <script src="js.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans|Chewy|Lovers+Quarrel|Alegreya+Sans|Oswald:700|Syncopate' rel='stylesheet' type='text/css'>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+   <h1>Hangman</h1>
+    <p>Use the alphabet below to guess the word, or click hint to get a clue. </p>
+</div>
+<div class="wrapper">
+    <div id="buttons">
+    </div>  
+    <p id="catagoryName"></p>
+    <div id="hold">
+    </div>
+    <p id="mylives"></p>
+    <p id="clue">Clue -</p>  
+     <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+    <div class="container">
+      <button id="hint">Hint</button>
+      <button id="reset">Play again</button>
+    </div>
+</div>
+</body>
+</html>
