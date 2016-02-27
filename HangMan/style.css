@@ -1,7 +1,7 @@
 /* Variabes */
 /* Mixin's */
 body {
-  background: #1e1e1e;
+  background-image: url("backs.png");
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #fff;
   height: 100%;
@@ -26,10 +26,9 @@ canvas {
 }
 
 h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  text-transform: uppercase;
-  margin: 5px 0;
+  font-family: 'chewy', sans-serif;
+  font-weight: 200;
+  margin: 15px 0;
 }
 
 h1 {
@@ -41,6 +40,7 @@ h2 {
 }
 
 p {
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.6em;
 }
 
@@ -63,7 +63,7 @@ p {
   height: 30px;
   padding-top: 2px;
   background: #fff;
-  color: #c1d72e;
+  color: #3498db;
   cursor: pointer;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -72,7 +72,7 @@ p {
   border: solid 1px #fff;
 }
 #alphabet li:hover {
-  background: #c1d72e;
+  background: #34495e;
   border: solid 1px #fff;
   color: #fff;
 }
@@ -123,14 +123,14 @@ button {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   -khtml-border-radius: 5px;
-  background: #c1d72e;
-  color: #fff;
+  background: #ffffff;
+  color: #3e3e3e;
   border: solid 1px #fff;
   text-decoration: none;
   cursor: pointer;
   font-size: 1.2em;
   padding: 18px 10px;
-  width: 180px;
+  width: 150px;
   margin: 10px;
   outline: none;
 }
@@ -140,7 +140,7 @@ button:hover {
   transition: all 0.3s ease-in-out;
   background: #fff;
   border: solid 1px #fff;
-  color: #c1d72e;
+  color: #95a5a6;
 }
 
 @media (max-width: 767px) {
