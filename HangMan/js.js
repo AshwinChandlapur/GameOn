@@ -92,7 +92,7 @@ window.onload = function () {
   }
 
   
-  
+  //stickman
   canvas =  function(){
 
     myStickman = document.getElementById("stickman");
@@ -185,7 +185,7 @@ window.onload = function () {
     categories = [
         ["rabbit", "zebra", "gorilla", "giraffe", "lion", "cheetah", "koala"],
         ["kannada", "english", "hindi", "marathi", "malayalam","tamil","telugu","chinese"],
-        ["india", "spain", "england", "australia", "italy",]
+        ["india", "spain", "england", "australia", "italy"],
     ];
 
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];
@@ -194,7 +194,7 @@ window.onload = function () {
     console.log(word);
     buttons();
 
-    guesses = [ ];
+    geusses = [ ];
     lives = 10;
     counter = 0;
     space = 0;
