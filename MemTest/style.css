@@ -1,20 +1,23 @@
+body{
+  background-image:url(backs.png);
+}
 div#memory_board{
-  background:#5e5e5e;
+  background:#CCC;
   border:#999 1px solid;
   width:800px;
-  height: 540px;
+  height:540px;
   padding:24px;
   margin:0px auto;
 }
 div#memory_board > div{
-  background-color:#1e1e1e;
+  background: url(tile_bg.jpg) no-repeat;
   border:#000 1px solid;
-  width: 71px;
+  width:71px;
   height:71px;
   float:left;
   margin:10px;
   padding:20px;
   font-size:64px;
   cursor:pointer;
-  text-align: center;
+  text-align:center;
 }
