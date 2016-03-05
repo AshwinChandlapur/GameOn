@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GameOn!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" scalable='yes'>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="style.css" type="text/css" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="linkstyles.css" />
+  <script src="js.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans|Chewy|Lovers+Quarrel|Alegreya+Sans|Oswald:700|Syncopate' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="col-md-12">
+    <div id="inst_board"><h1>Vedic Math<h1>
+      <h1>Easy Multiplication</h1>
+      <button type="button" class="btn btn-default" onclick="start(),loadb1();">Start</button>
+       <p id="rule1">Trick Works for numbers close to 100</p>
+      <button type="button" id="b1"class="btn btn-default" onclick="next(),loadb2();"style="visibility:hidden">Step1</button>
+       <p id="rule2">We Have To Multiply</p>
+       <button type="button" id='b2'class="btn btn-default" onclick="next1();" style="visibility:hidden">Step2</button>
+       <p id="rule3">Take Another Number</p>
+
+   </div>    
+  </div>
+  <div class="containers">
+    <div class="box fade-in one">
+  <img id="img1" src="img1.png" style="visibility:hidden"/>
+  <img id="img3" src="img3.png" style="visibility:hidden"/>
+    </div>
+  <div class="box fade-in one">
+    <img id="img2" src="img2.png" style="visibility:hidden"/>
+  </div>
+  </div>
+</body>
+</html>
