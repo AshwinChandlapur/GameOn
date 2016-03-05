@@ -1,9 +1,16 @@
 body{
   background-image:url(backs.png);
 }
+h1
+{
+  font-family:Chewy;
+  text-align: center;
+  color:#1e1e1e;
+  text-decoration: bold;
+  font-size: 46px;
+}
 div#memory_board{
-  background:#CCC;
-  border:#999 1px solid;
+  background:transparent;
   width:800px;
   height:540px;
   padding:24px;
